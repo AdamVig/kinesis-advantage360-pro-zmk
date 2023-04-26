@@ -8,6 +8,7 @@
 
 / {
     behaviors {
+      #include "custom_behaviors.dtsi"
       #include "macros.dtsi"
       #include "version.dtsi"
 

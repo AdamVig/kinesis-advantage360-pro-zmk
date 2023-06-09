@@ -5,3 +5,9 @@ td0: tap_dance_0 {
      tapping-term-ms = <200>;
      bindings = <&mo 2>, <&kp RIGHT_ALT>;
 };
+macro_audioswap: macro_audioswap{
+     compatible = "zmk,behavior-macro";
+     label = "macro_audioswap";
+     #binding-cells = <0>;
+     bindings = <&kp LC(LS(LA(LG(F12))))>;
+};
